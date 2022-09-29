@@ -27,3 +27,52 @@ dody {
     cursor: pointer;
     display: block;
 }
+
+.display-none {
+    display: none;
+}
+
+.card-title, .card-text {
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gallery-btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+div.col:hover{
+    cursor: pointer;
+}
+
+div.col:hover > div img{
+    color: rgba(19, 17, 17, 0.418);
+    transition: color 0.2s;
+    background-color: #1b1e2242;
+    opacity: 0.2;
+    box-shadow: rgb(26, 24, 24) 5px 5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+div.col:hover > div h5{
+    display: flex;
+    color: rgba(253, 249, 249, 0.932);
+
+}
+
+div.col:hover > div p{
+    display: flex;
+    color: rgba(253, 249, 249, 0.932);
+}
+
+div.col:hover > div .gallery-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(253, 249, 249, 0.932);
+}

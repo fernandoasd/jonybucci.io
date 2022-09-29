@@ -40,8 +40,13 @@
                     <li class="nav-item dropdown">
                             <a class="dropdown-item" href="#" role="button" data-bs-toggle="">Jeans</a>
                             <ul class="dropdown-menu submenu1">
-                                <li><a class="dropdown-item" href="#">Clasicos para Hombres</a></li>
-                                <li><a class="dropdown-item" href="#">Chupines elastizados para las locas</a></li>
+                                <li><a class="dropdown-item" href="#">Clasicos</a></li>
+                                <li class="nav-item dropdown">
+                                  <a class="dropdown-item" href="#" role="button" data-bs-toggle="">Chupines</a>
+                                  <ul class="dropdown-menu submenu1">
+                                      <li><a class="dropdown-item" href="#">Para locas</a></li>
+                                  </ul>
+                          </li>
                             </ul>
                     </li>
                       <li><a class="dropdown-item" href="#">Guia de Talles</a></li>
@@ -49,6 +54,18 @@
                       <li><a class="dropdown-item" href="#">Chombas</a></li>
                       <li><a class="dropdown-item" href="#">Camisas</a></li>
                       <li><a class="dropdown-item" href="#">Buzos</a></li>
+                      <li class="nav-item dropdown">
+                        <a class="dropdown-item" href="#" role="button" data-bs-toggle="">Medias</a>
+                        <ul class="dropdown-menu submenu1">
+                          <li class="nav-item dropdown">
+                            <a class="dropdown-item" href="#" role="button" data-bs-toggle="">Medias de lana</a>
+                            <ul class="dropdown-menu submenu1">
+                                <li><a class="dropdown-item" href="#">Soquete</a></li>
+                                <li><a class="dropdown-item" href="#">Medias largas</a></li>
+                            </ul>
+                     </li>
+                        </ul>
+                </li>
                     </ul>
                   </li>
                   <li class="nav-item dropdown">
@@ -116,7 +133,7 @@
 
 
 <!--Container para el margin , padding-->
-<div class="container border border-warning border-1 p-1">
+<div class="container p-1">
 
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
 <!-- Carrusel-->
@@ -151,16 +168,236 @@
   </div>
   
   <!--Texto-->
-  <div class="container-fluid mt-5 border-3 border-warning border-top border-bottom">
+  <div class="container-fluid mt-5 border-3 border-warning border-top border-bottom container-gallery">
     <h3 class="text-center">Bienvenidos a Jonybucci</h3>
     <p class="m-2 text-center">Somos fabricantes y distribuidores mayoristas de indumentaria. Manejamos categoría masculina, 
         femenina, adolescente y junior. Nuestro mínimo de compra es de $10000, en adelante.</p>
   </div>
 
-  <h2 class="text-center mt-5">ULTIMOS INGRESOS</h2>
+  <h2 class="text-center mt-5 mb-5">ULTIMOS INGRESOS</h2>
 
-  <div class="container border border-warning border-1 p-1">
-    
+      <div class="row row-cols-1 row-cols-md-3 g-4  border border-black">
+        
+        <div class="col">
+          <div class="card h-100 w-30 bg-dark">
+            <img src="./imagenes/83033-2.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+            <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+            <h5 class="card-title mt-5">Campera Jean</h5>
+            <p class="card-text mt-5">$ 6500,00</p>
+            <div class="row  m-5 h-50">
+              <div class="col"></div>
+              <div class="col text-center">
+                <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+              </div>
+              <div class="col"></div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-30  bg-dark">
+            <img src="./imagenes/93277-1.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+                <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+                <h5 class="card-title mt-5">Chomba</h5>
+                <p class="card-text mt-5">$ 3000,00</p>
+                <div class="row  m-5 h-50">
+                  <div class="col"></div>
+                  <div class="col text-center">
+                    <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+                  </div>
+                  <div class="col"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-30  bg-dark">
+            <img src="./imagenes/93288-1.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+                <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+                <h5 class="card-title mt-5">Buzo</h5>
+                <p class="card-text mt-5">$ 5000,00</p>
+                <div class="row  m-5 h-50">
+                  <div class="col"></div>
+                  <div class="col text-center">
+                    <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+                  </div>
+                  <div class="col"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-30 block-n  bg-dark">
+            <img src="./imagenes/chica 01.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+                <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+                <h5 class="card-title mt-5">Remera freedom</h5>
+                <p class="card-text mt-5">$ 3100,00</p>
+                <div class="row  m-5 h-50">
+                  <div class="col"></div>
+                  <div class="col text-center">
+                    <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+                  </div>
+                  <div class="col"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-30 bg-dark">
+            <img src="./imagenes/83033-2.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+            <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+            <h5 class="card-title mt-5">Campera Jean</h5>
+            <p class="card-text mt-5">$ 6500,00</p>
+            <div class="row  m-5 h-50">
+              <div class="col"></div>
+              <div class="col text-center">
+                <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+              </div>
+              <div class="col"></div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-30  bg-dark">
+            <img src="./imagenes/93277-1.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+                <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+                <h5 class="card-title mt-5">Chomba</h5>
+                <p class="card-text mt-5">$ 3000,00</p>
+                <div class="row  m-5 h-50">
+                  <div class="col"></div>
+                  <div class="col text-center">
+                    <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+                  </div>
+                  <div class="col"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-30  bg-dark">
+            <img src="./imagenes/93288-1.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+                <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+                <h5 class="card-title mt-5">Buzo</h5>
+                <p class="card-text mt-5">$ 5000,00</p>
+                <div class="row  m-5 h-50">
+                  <div class="col"></div>
+                  <div class="col text-center">
+                    <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+                  </div>
+                  <div class="col"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-30 block-n  bg-dark">
+            <img src="./imagenes/chica 01.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+                <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+                <h5 class="card-title mt-5">Remera freedom</h5>
+                <p class="card-text mt-5">$ 3100,00</p>
+                <div class="row  m-5 h-50">
+                  <div class="col"></div>
+                  <div class="col text-center">
+                    <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+                  </div>
+                  <div class="col"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-30 bg-dark">
+            <img src="./imagenes/83033-2.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+            <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+            <h5 class="card-title mt-5">Campera Jean</h5>
+            <p class="card-text mt-5">$ 6500,00</p>
+            <div class="row  m-5 h-50">
+              <div class="col"></div>
+              <div class="col text-center">
+                <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+              </div>
+              <div class="col"></div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-30  bg-dark">
+            <img src="./imagenes/93277-1.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+                <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+                <h5 class="card-title mt-5">Chomba</h5>
+                <p class="card-text mt-5">$ 3000,00</p>
+                <div class="row  m-5 h-50">
+                  <div class="col"></div>
+                  <div class="col text-center">
+                    <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+                  </div>
+                  <div class="col"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-30  bg-dark">
+            <img src="./imagenes/93288-1.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+                <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+                <h5 class="card-title mt-5">Buzo</h5>
+                <p class="card-text mt-5">$ 5000,00</p>
+                <div class="row  m-5 h-50">
+                  <div class="col"></div>
+                  <div class="col text-center">
+                    <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+                  </div>
+                  <div class="col"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-30 block-n  bg-dark">
+            <img src="./imagenes/chica 01.jpg" class="card-img-top" alt="..." style="object-fit: cover;">
+            <div class="card-img-overlay">
+                <span class="badger rounded-pill bg-danger p-1 text-white m-1 text-light"> Nuevo </span>
+                <h5 class="card-title mt-5">Remera freedom</h5>
+                <p class="card-text mt-5">$ 3100,00</p>
+                <div class="row  m-5 h-50">
+                  <div class="col"></div>
+                  <div class="col text-center">
+                    <button type="button" class="btn btn-outline-success gallery-btn">Comprar</button>
+                  </div>
+                  <div class="col"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
   </div>
 
 
