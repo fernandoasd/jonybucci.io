@@ -76,3 +76,7 @@ div.col:hover > div .gallery-btn{
     align-items: center;
     color: rgba(253, 249, 249, 0.932);
 }
+
+#navbar-foot {
+    background-color: hsla(0, 0%, 3%, 0.774);
+   }
